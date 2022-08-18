@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>90后小游戏</title>
+    <style>
+body{
+    background: #f0e65d;
+}
+
+.loader {
+  width: 100px;
+  height: 100px;
+  margin: auto;
+  position: relative;
+  margin-top: 100px;
+}
+
+.loader:before {
+  content: '';
+  width: 48px;
+  height: 5px;
+  background: #f8f2f250;
+  position: absolute;
+  top: 60px;
+  left: 0;
+  border-radius: 50%;
+  animation: shadow324 0.5s linear infinite;
+}
+
+.loader:after {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background: #f08080;
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: 4px;
+  animation: jump7456 0.5s linear infinite;
+}
+
+@keyframes jump7456 {
+  15% {
+    border-bottom-right-radius: 3px;
+  }
+
+  25% {
+    transform: translateY(9px) rotate(22.5deg);
+  }
+
+  50% {
+    transform: translateY(18px) scale(1, .9) rotate(45deg);
+    border-bottom-right-radius: 40px;
+  }
+
+  75% {
+    transform: translateY(9px) rotate(67.5deg);
+  }
+
+  100% {
+    transform: translateY(0) rotate(90deg);
+  }
+}
+
+@keyframes shadow324 {
+
+  0%,
+    100% {
+    transform: scale(1, 1);
+  }
+
+  50% {
+    transform: scale(1.2, 1);
+  }
+}
+
+div.img {
+    border: 1px solid #ccc;
+}
+
+div.img:hover {
+    border: 1px solid #777;
+}
+
+div.img img {
+    width: 100%;
+    height: auto;
+}
+
+div.desc {
+    padding: 15px;
+    text-align: center;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.responsive {
+    padding: 0 6px;
+    float: left;
+    width: 20%;
+}
+
+@media only screen and (max-width: 800px){
+    .responsive {
+        width: 49.99999%;
+        margin: 6px 0;
+    }
+}
+
+@media only screen and (max-width: 500px){
+    .responsive {
+        width: 100%;
+    }
+}
+
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.responsive{
+    margin-top:200px;
+	margin-bottom:100px;
+	margin-right:50px;
+	margin-left:150px;
+}
+    </style>
+</head>
+<body>
+    <div class="loader"></div>
+    <div class="responsive">
+        <div class="img">
+          <a target="_blank" href="https://www.yikm.net/play?id=3175&n=L2Zjcm9tL2R6bXgvVGFrYWhhc2hpIE1laWppbiBubyBCb3VrZW4gU2hpbWEgKEopIFshXS5uZXM=&t=%E5%86%92%E9%99%A9%E5%B2%9B&ac=3&p=/fcpic/1001a.png">
+            <img src="./游戏网站/1001a.png" alt="Trolltunga Norway" width="300" height="200">
+          </a>
+          <div class="desc"><strong>冒险岛</strong></div>
+        </div>
+      </div>
+      
+      
+      <div class="responsive">
+        <div class="img">
+          <a target="_blank" href="https://www.yikm.net/play?id=3501&n=L2Zjcm9tL2R6bXgvU3VwZXIgTWFyaW8gQnJvcy4gKFcpIFshXS5uZXM=&t=%E8%B6%85%E7%BA%A7%E9%A9%AC%E9%87%8C%E5%A5%A5&ac=3&p=/fcpic/2146a.png">
+            <img src="./游戏网站/2146a.png" alt="Forest" width="600" height="400">
+          </a>
+          <div class="desc"><strong>超级玛丽</strong></div>
+        </div>
+      </div>
+      
+      <div class="responsive">
+        <div class="img">
+          <a target="_blank" href="https://www.yikm.net/play?id=4137&n=L2Zjcm9tL3NqL0NvbnRyYSAoVSkgWyFdLm5lcw==&t=%E9%AD%82%E6%96%97%E7%BD%97&ac=3&p=/fcpic/sj/436a.png">
+            <img src="./游戏网站/436a.png" alt="Northern Lights" width="600" height="400">
+          </a>
+          <div class="desc"><strong>魂斗罗</strong></div>
+        </div>
+        <p>小游戏转自小霸王网站</p>
+      </div>
+</body>
+</html>
